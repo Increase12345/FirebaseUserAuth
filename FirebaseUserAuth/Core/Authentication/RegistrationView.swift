@@ -20,7 +20,7 @@ struct RegistrationView: View {
             Image("icon")
                 .resizable()
                 .scaledToFill()
-                .frame(width: 200, height: 220)
+                .frame(width: 200, height: 200)
                 .padding(.vertical, 10)
             
             // form fields
