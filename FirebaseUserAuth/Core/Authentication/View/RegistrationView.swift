@@ -62,7 +62,7 @@ struct RegistrationView: View {
             } label: {
                 ButtonView(title: "SIGN UP", image: "arrow.right")
             }
-            .disabled(formIsValid)
+            .disabled(!formIsValid)
             .opacity(formIsValid ? 1: 0.5)
             
             Spacer()
